@@ -28,5 +28,9 @@ jobs:
           aqua_version: v2.56.6
       - name: Check action pins
         run: pinact run --check
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Scan workflows
         run: zizmor --format github .
+        env:
+          GH_TOKEN: ${{ github.token }}
