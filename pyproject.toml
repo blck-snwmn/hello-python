@@ -15,7 +15,7 @@ hello-python = "hello_python.cli:run"
 dev = [
     "pyright==1.1.411",
     "pytest==9.1.1",
-    "ruff==0.16.2",
+    "ruff==0.16.10",
 ]
 
 [build-system]
