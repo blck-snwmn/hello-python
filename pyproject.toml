@@ -5,7 +5,7 @@ description = "A small reading-list CLI for learning modern Python development"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "pydantic==2.13.4",
+    "pydantic==2.14.1",
 ]
 
 [project.scripts]
